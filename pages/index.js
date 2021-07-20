@@ -1,16 +1,16 @@
-import {
-    Navbar,
-    Nav, 
-    Carousel,
-    Row,
-    Container,
-    Col,
-    Card,
-    Button, 
-    }from 'react-bootstrap';
-    import '@fortawesome/fontawesome-free/css/all.css'; 
-    // import 'bootstrap/dist/css/bootstrap.css'; 
-    // import from 'react-bootstrap';
+    import {
+        Navbar,
+        Nav, 
+        Carousel,
+        Row,
+        Container,
+        Col,
+        Card,
+        Button, 
+    } from 'react-bootstrap'
+    import '@fortawesome/fontawesome-free/css/all.css'
+    import 'bootstrap/dist/css/bootstrap.css'; 
+    import 'react-bootstrap';
     import Image from 'next/image'; 
     import Highligts from "../components/Highligts";
     import Footer from "../components/Footer"; 
