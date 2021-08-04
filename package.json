@@ -1,10 +1,10 @@
 {
   "name": "th-dev2021",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfólio",
   "main": "index.js",
   "scripts": {
-    "thdev": "next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",

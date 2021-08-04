@@ -3,9 +3,8 @@
 /* secundary ROSA : #FF46D6 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700');
-*{
+ 
 
-}
 
 /* colors */
 body{
@@ -63,8 +62,7 @@ p {
     font-size: 14px;color:#7F8C8D;
 }
 
-
-/* CARDS */
+/* CARD */
 .card h2  {
     font-size: 1.2rem !important; 
     line-height: 1.2;
@@ -72,7 +70,6 @@ p {
 .card p  {
     font-size: 0.7rem !important; 
 }
-
 .card h2.main,.card-body  {
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif !important;
@@ -84,15 +81,13 @@ p {
     border-radius: 17px;
     box-shadow: 10px 5px 11px #5e57662e;
 }
-#experriences .span {
+#experiences .span {
     font-size: x-small;
 }
-
-
-
+/* 
 span.badge.badge-pill.badge-danger.text-danger.align-items-center{
     background-color:  #FF46D6 !important;
-}
+} */
 
 
 /* NAV, NAVBAR, .navbar-collapse */
@@ -105,17 +100,12 @@ nav{
     z-index: 999;
     width: 100%;
 }
-.navbar-collapse {
-    display: flex;
-    align-items: center;
-    background-color: #2A48C2;
-}
+               
 nav .text-primary {
     color: white !important;
 }
 
 /* Highlits */
-
 .highligts .card {
     background-color: #2A48C2;
     margin: 0 auto 20px;  
@@ -136,7 +126,6 @@ font-size: 12px !important;
 section.highligts p br {
     display: none;
 }
-
 .highligts .card p{ 
     color: white !important;
     font-size: 1.4rem !important;
@@ -148,7 +137,6 @@ section.highligts p br {
 
 
 /* BOTTONS */
-
 .border.border-primary-main{
     border: 1px solid #2A48C2 !important; 
 }
@@ -158,50 +146,30 @@ section.highligts p br {
 } */
 
 /* benefits */
-
 .benefits .card {
     border-radius: 17px;
     box-shadow: 10px 5px 11px #5e57662e;
 }
-/* SECTION - SKILLS */
-
-.skills i {
-    font-size: 8rem;
-    opacity: 0.6;
-    color: #c52534 !important;
-}
-.skills h2 {
-    top: 20%;
-}
-
-#skill p.card-text,.experience p.card-text {
-    padding: 0 24px !important;
-}
-
-.border-top-m {
-    border-top: 1px solid #f1f1f1 !important;
-}
-
 
 /* NAVBAR  */
-
 .navbar-collapse a{
     margin-left: 50px; 
 }
 .navbar-collapse .btn-primary{
-margin-left: 390px; 
+/* margin-left: 390px;  */
 font-size: 14px;
 }
 
 .text-left.carousel-caption{ 
+margin-top: 19%;    
 color: white !important;
 padding: 5px 20px;
 border-left: 4px solid !important; 
 border-color:#FF46D6 !important;
 }
 
-/* CAROUSEL */
 
+/* CAROUSEL */
 .carousel {
     max-height: 450px; 
 }
@@ -211,15 +179,12 @@ border-color:#FF46D6 !important;
     top: 25% !important;
     left: 10.5% !important;
 }
-
 .carousel-caption h1,h2 {
     font-size: 1.25rem !important;
 }
- 
 .carousel-control-prev, .carousel-control-next{
     display:none !important;
 }
-
 .carousel-indicators li {
     width: 8px  !important;
     height: 8px  !important;
@@ -227,150 +192,55 @@ border-color:#FF46D6 !important;
     background-color: #BDBDBD !important;
     border-bottom: inherit !important;
     border-top: inherit !important;
-
+    display: none;
 } 
-
+.full-banner { 
+    position: relative !important;
+    height: 310px; 
+    /* height: 450px; */
+    background: white;
+}
+.full-banner .carousel img{
+    position: relative;
+    bottom: 100px;
+}
+.carousel-inner{
+    height: 190%;
+}
 ol.carousel-indicators .active {
     background-color: #FF46D6 !important;
     width: 32px !important;
     height: 7px !important;
     border-radius: 28px !important ;
+    display: none;
+}
+.card p {
+    font-size: 0.8rem !important;
 }
 
-
-@media(max-width:575px){
-    .carousel-caption { 
-        top: 50vh !important; 
-    }
-}
-
-@media(max-width:768px){
-    
-}
-   
-    
-    
-    
-    .full-banner { 
-        position: relative !important;
-        height: 310px; 
-        background: #FF46D6;
-    }
-    .carousel-inner{
-        height: 350px;
-    }
-    .card p {
-        font-size: 0.8rem !important;
-    
-}
-   
-    .full-banner .carousel img{
-        position: relative;
-        bottom: 90px;
-    }
-   
-    .full-banner { 
-        position: relative !important;
-        height: 450px;
-    }
-    .carousel-inner{
-        height: 90vh;
-    }
-   
-
-/* RESETS */
-@media (min-width: 576px){
-.container, .container-sm {
-    max-width: 540px;
-    min-width: 90%;}
-
-}
-
-
-/* CAROUSEL / PORTFÓLIO */
-@media(max-width:768px){
-
-    .carousel-item {
-      text-align: center;
-    }
-}
-@media(min-width:768px){
-
-    .p-0.slide-portfolio  {
-        position: absolute;
-        right: 0;
-        top:0;
-    }
-}
- .slide-portfolio a.carousel-control-prev,.slide-portfolio a.carousel-control-next{
-display: none;
-}
 /* SWIPER */
-
-/* .swiper-container{
+.slide-portfolio a.carousel-control-prev,.slide-portfolio a.carousel-control-next{
+    display: none;
+    }
+.swiper-container{
     overflow: inherit !important;
-} */
-
+}
 .swiper-slide:nth-child(2n) {
     width: 60%;
-  }
-
-  .swiper-slide:nth-child(3n) {
+}
+.swiper-slide:nth-child(3n) {
     width: 40%;
-  }
+}
 
-  @media(min-width:1200px){
-    .swiper-slide {
-        margin:0 25px 0 0 !important
-    }
-    h1, .h1 {
-        font-size: 2.3rem !important;
-    }
-    
-
-  }
-
-
-/* DOWNLOAD */
- @media(min-width:768px){
-    section.download .container > div {
-        position: relative;
-        width: 100%;
-        z-index: 999;
-        left: 0;
-        top: -73px;
-    }
-    .portfolio-section {
-        height:640px ;
-    }
-    section.download {
-        position: relative;
-        /* background: red; */
-        /* height: 70px; */
-    }
-    
-    #portfolio img {
-        position:absolute !important;
-        right: 0 !important;
-    }
-
- }
-
+/* PROGRESS */
+.progress{
+    height: 7px !important; 
+}
+.progress-bar{
+    background-color: #2A48C2 !important;
+}
 .radius-m{
     border-radius: 17px !important;
-}
-
-/* FOOTER */
-@media (max-width:768px){
-    footer .list-group-item {
-        font-size: 0.6rem;
-    }
-    
-}
-@media (min-width:769px){
-    footer .list-group-item {
-        font-size: 0.8rem;
-    }
 }
 
 /* PARALLAX */
@@ -382,29 +252,114 @@ display: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* MOBILE */
 @media (max-width:560px){
+
+    /* NAV / COLLAPSE */
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    /* .navbar-collapse {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        background-color: #2A48C2;
+    } */
+
+    /* CAROUSEL / PORTFÓLIO */
+    .carousel-inner{
+        height: 200%;
+    }
+    .carousel-caption { 
+        top: 70vh !important; 
+    }
+    .carousel-item {
+        text-align: center;
+    }
+
+    /* carousel */
+    .full-banner .carousel img{
+        position: relative;
+        height: 100%;
+    }
+
+    /* FOOTER */
+    footer .list-group-item {
+        font-size: 0.6rem;
+    }
+
+    /* PARALLAX */
     .parallax {
         background-position: -118px 7px !important;
     } 
 }
+/* TABLET */
 @media (min-width:768px){
+     /* CAROUSEL / PORTFÓLIO */
+     .carousel-inner{
+        height: 170%;
+    }
+    .carousel-caption { 
+        top: 30vh !important; 
+    }
+    /* CAROUSEL / PORTFÓLIO */
+    .p-0.slide-portfolio  {
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+
+    /* DOWNLOAD */
+    section.download .container > div {
+        position: relative;
+        width: 100%;
+        z-index: 999;
+        left: 0;
+        top: -73px;
+    }
+
+    .portfolio-section {
+        height:640px ;
+    }
+    section.download {
+        position: relative;
+        /* background: red; */
+        /* height: 70px; */
+    }
+    #portfolio img {
+        position:absolute !important;
+        right: 0 !important;
+    }
+
+    /* PARALLAX */
     .parallax {
-      
         min-height: 300px;
-
-       
+    }
+    footer .list-group-item {
+        font-size: 0.8rem;
     } 
-    
 }
-
-
-
-/* PROGRESS */
-
-.progress{
-    height: 7px !important; 
-}
-
-.progress-bar{
-    background-color: #2A48C2 !important;
-}
+/* DESKTOP */
+@media(min-width:1200px){
+    .navbar-collapse a {
+        color: #2A48C2;
+        margin-left: 102px;
+        justify-content: center;
+    }
+    .carousel-caption { 
+        top: 70vh !important; 
+    }
+    .swiper-slide {
+        margin:0 25px 0 0 !important
+    }
+    h1, .h1 {
+        font-size: 2.3rem !important;
+    }
+  }
