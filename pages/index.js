@@ -35,10 +35,10 @@
         <Highligts></Highligts>
   
         {/* vantagens */}
-        {/* <Benefits></Benefits> */}
+        <Benefits></Benefits>
   
         {/* banner_parallax */}
-        {/* <Parallax></Parallax> */}
+        <Parallax></Parallax>
        
         {/* Skills */}
         {/* <Skills></Skills> */}

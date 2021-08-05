@@ -242,6 +242,7 @@ ol.carousel-indicators .active {
 .parallax {
     background-image: url(/bnn_parallax_2.png);
     min-height: 369px;
+    /* min-height: 579px; */
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
@@ -255,7 +256,7 @@ ol.carousel-indicators .active {
         margin: 0 auto 20px;  
         border-radius: 17px;
         box-shadow: 10px 5px 11px #5e57662e;
-        height: 180px;
+        height: 200px;
     }
     .highligts .card p {
         color: white !important;
@@ -310,9 +311,16 @@ ol.carousel-indicators .active {
 
     /* PARALLAX */
     .parallax {
-        background-position: -118px 7px !important;
+        background-position: -256px -35px !important;
     } 
+    .parallax{
+        min-height: 579px;
+    }
+    .parallax .pt-5 {
+        padding-top: 7rem !important;
+    }
 }
+
 /* TABLET */
 @media (min-width:768px){
      /* CAROUSEL / PORTFÓLIO */
@@ -360,15 +368,22 @@ ol.carousel-indicators .active {
         position:absolute !important;
         right: 0 !important;
     }
-
+    /* PARALLAX */
+    .parallax {
+        background-position: -163px 145px !important;
+    } 
     /* PARALLAX */
     .parallax {
         min-height: 300px;
+    }
+    .parallax .pt-5 {
+        padding-top: 15rem ​!important;
     }
     footer .list-group-item {
         font-size: 0.8rem;
     } 
 }
+
 /* DESKTOP */
 @media(min-width:1200px){
     .navbar-collapse a {
@@ -390,5 +405,16 @@ ol.carousel-indicators .active {
     }
     h1, .h1 {
         font-size: 2.3rem !important;
+    }
+    /* PARALLAX */
+    .parallax {
+        background-position: -193px 245px !important;
+    } 
+    /* PARALLAX */
+    .parallax {
+        min-height: 420px;
+    }
+    .parallax .pt-5 {
+        padding-top: 7rem !important;
     }
   }
