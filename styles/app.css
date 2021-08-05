@@ -77,13 +77,13 @@ p {
 }
 
 /* Componetes */
-#experiences .card {
+/* #experiences .card {
     border-radius: 17px;
     box-shadow: 10px 5px 11px #5e57662e;
 }
 #experiences .span {
     font-size: x-small;
-}
+} */
 /* 
 span.badge.badge-pill.badge-danger.text-danger.align-items-center{
     background-color:  #FF46D6 !important;
@@ -128,7 +128,7 @@ section.highligts p br {
 }
 .highligts .card p{ 
     color: white !important;
-    font-size: 1.4rem !important;
+    font-size: 0.7rem !important;
 }
 .highligts .card h2 { 
     height: 57px;
@@ -219,18 +219,13 @@ ol.carousel-indicators .active {
 }
 
 /* SWIPER */
-.slide-portfolio a.carousel-control-prev,.slide-portfolio a.carousel-control-next{
-    display: none;
-    }
-.swiper-container{
-    overflow: inherit !important;
-}
-.swiper-slide:nth-child(2n) {
+
+/* .swiper-slide:nth-child(2n) {
     width: 60%;
-}
-.swiper-slide:nth-child(3n) {
+} */
+/* .swiper-slide:nth-child(3n) {
     width: 40%;
-}
+} */
 
 /* PROGRESS */
 .progress{
@@ -254,6 +249,24 @@ ol.carousel-indicators .active {
 }
 /* MOBILE */
 @media (max-width:560px){
+    
+    .highligts .card {
+        background-color: #2A48C2;
+        margin: 0 auto 20px;  
+        border-radius: 17px;
+        box-shadow: 10px 5px 11px #5e57662e;
+        height: 180px;
+    }
+    .highligts .card p {
+        color: white !important;
+        font-size: 0.5rem !important;
+    }
+    .swiper-wrapper {
+        margin-top: 186px !important;
+    }
+    .swiper-container{
+        margin-top: 4% !important;
+    }
 
     /* NAV / COLLAPSE */
     .navbar {
@@ -278,7 +291,7 @@ ol.carousel-indicators .active {
         height: 200%;
     }
     .carousel-caption { 
-        top: 70vh !important; 
+        top: 50vh !important; 
     }
     .carousel-item {
         text-align: center;
@@ -307,9 +320,19 @@ ol.carousel-indicators .active {
         height: 170%;
     }
     .carousel-caption { 
-        top: 30vh !important; 
+        top: 10vh !important; 
     }
     /* CAROUSEL / PORTFÓLIO */
+    .highligts .card p {
+        color: white !important;
+        font-size: 0.6rem !important;
+    }
+    .swiper-wrapper {
+        margin-top: 72px ​!important;
+    }
+    .swiper-container{
+        margin-top: 9% !important;
+    }
     .p-0.slide-portfolio  {
         position: absolute;
         right: 0;
@@ -354,10 +377,16 @@ ol.carousel-indicators .active {
         justify-content: center;
     }
     .carousel-caption { 
-        top: 70vh !important; 
+        top: 50vh !important; 
     }
     .swiper-slide {
         margin:0 25px 0 0 !important
+    }
+    .swiper-container{
+        margin-top: 16% !important;
+    }
+    .swiper-wrapper {
+        margin-top: 49px;
     }
     h1, .h1 {
         font-size: 2.3rem !important;

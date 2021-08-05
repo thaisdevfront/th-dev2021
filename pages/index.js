@@ -32,7 +32,7 @@
         <Fullbanner></Fullbanner>         
      
         {/* Highligts */}
-        {/* <Highligts></Highligts> */}
+        <Highligts></Highligts>
   
         {/* vantagens */}
         {/* <Benefits></Benefits> */}
