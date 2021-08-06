@@ -63,6 +63,10 @@ p {
 }
 
 /* CARD */
+.card{
+    /* border: 15px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .card h2  {
     font-size: 1.2rem !important; 
     line-height: 1.2;
@@ -160,13 +164,6 @@ section.highligts p br {
 font-size: 14px;
 }
 
-.text-left.carousel-caption{ 
-margin-top: 19%;    
-color: white !important;
-padding: 5px 20px;
-border-left: 4px solid !important; 
-border-color:#FF46D6 !important;
-}
 
 
 /* CAROUSEL */
@@ -179,9 +176,7 @@ border-color:#FF46D6 !important;
     top: 25% !important;
     left: 10.5% !important;
 }
-.carousel-caption h1,h2 {
-    font-size: 1.25rem !important;
-}
+
 .carousel-control-prev, .carousel-control-next{
     display:none !important;
 }
@@ -206,6 +201,12 @@ border-color:#FF46D6 !important;
 }
 .carousel-inner{
     height: 190%;
+}
+.text-left.carousel-caption{ 
+    color: white !important;
+    padding: 5px 20px;
+    border-left: 4px solid !important; 
+    border-color:#FF46D6 !important;
 }
 ol.carousel-indicators .active {
     background-color: #FF46D6 !important;
@@ -294,6 +295,9 @@ ol.carousel-indicators .active {
     .carousel-caption { 
         top: 50vh !important; 
     }
+    .carousel-caption h1,h2 {
+        font-size: 1.25rem !important;
+    }
     .carousel-item {
         text-align: center;
     }
@@ -330,7 +334,10 @@ ol.carousel-indicators .active {
     .carousel-caption { 
         top: 10vh !important; 
     }
-    /* CAROUSEL / PORTFÓLIO */
+    .carousel-caption h1,h2 {
+        font-size: 2.25rem !important;
+    }
+    /* HIGHLIGTS / COMPONENTE */
     .highligts .card p {
         color: white !important;
         font-size: 0.6rem !important;
@@ -370,10 +377,7 @@ ol.carousel-indicators .active {
     }
     /* PARALLAX */
     .parallax {
-        background-position: -163px 145px !important;
-    } 
-    /* PARALLAX */
-    .parallax {
+        background-position: 0px -20px !important;
         min-height: 300px;
     }
     .parallax .pt-5 {
@@ -391,9 +395,22 @@ ol.carousel-indicators .active {
         margin-left: 102px;
         justify-content: center;
     }
-    .carousel-caption { 
-        top: 50vh !important; 
+    .carousel-inner{
+        height: 100vh;
     }
+    .carousel-caption { 
+        top: 10% !important;
+        align-items: center; 
+    }
+    .carousel-caption h1,h2 {
+        font-size: 3.25rem !important;
+    }
+    .text-left.carousel-caption{ 
+        margin-top: 9%; 
+    }
+    
+        
+
     .swiper-slide {
         margin:0 25px 0 0 !important
     }
@@ -409,10 +426,10 @@ ol.carousel-indicators .active {
     /* PARALLAX */
     .parallax {
         background-position: -193px 245px !important;
-    } 
-    /* PARALLAX */
+    }
     .parallax {
-        min-height: 420px;
+        background-position: 0px -20px !important;
+        min-height: 520px;
     }
     .parallax .pt-5 {
         padding-top: 7rem !important;

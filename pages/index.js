@@ -41,10 +41,10 @@
         <Parallax></Parallax>
        
         {/* Skills */}
-        {/* <Skills></Skills> */}
+        <Skills></Skills>
           
         {/* work */}
-        {/* <Portfolio></Portfolio> */}
+        <Portfolio></Portfolio>
   
         {/* Download */}
         {/* <Download></Download> */}

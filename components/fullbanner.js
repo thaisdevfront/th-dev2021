@@ -46,10 +46,8 @@
                       alt="First slide"
                       />
                     <Carousel.Caption className="text-primary text-left border-start">
-                      <h1 className="d-none d-sm-block">Sua empresa de <strong>portas abertas para um mundo de posibilidades </strong>
-                      na tecnologia.
+                      <h1 className="">Sua empresa de <strong>portas abertas para um mundo de tecnologia. </strong>
                       </h1>
-                      <h1 className="d-block d-sm-none">Sua Empresa de Portas <strong> abertas para um Mundo na tecnologia. </strong></h1>
                     </Carousel.Caption>
                   </Carousel.Item>
                 </Carousel>

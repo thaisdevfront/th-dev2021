@@ -37,7 +37,6 @@ import {
                             <Card.Body >
                                 <div className="text-white d-flex justify-content-end align-items-center text-small">
                                     <span> <strong>2020 - 2021 </strong> </span>
-                                    <i class="far fa-bookmark ml-2"></i> 
                                 </div>
                                 <Card.Title className="text-white fw-bold">
                                     <h6> <strong> OLFATI  <br></br> Marketing Olfativo </strong> </h6>
@@ -50,7 +49,6 @@ import {
                             <Card.Body >
                                 <div className="d-flex justify-content-end align-items-center text-small">
                                     <span> <strong>2020 - 2020</strong> </span>
-                                    <i class="far fa-bookmark ml-2"></i> 
                                 </div>
                                 <Card.Title className="text-primary-main fw-bold">
                                     <h6> <strong> Gráfica Rápida  <br></br> Agência de Design Gráfico </strong> </h6>
@@ -64,7 +62,6 @@ import {
                             <Card.Body >
                                 <div className="d-flex justify-content-end align-items-center text-small">
                                     <span> <strong>2017 - 2017</strong> </span>
-                                    <i class="far fa-bookmark ml-2"></i> 
                                 </div>
                                 <Card.Title className="text-primary-main fw-bold">
                                     <h6> <strong> CONIAL VILLAGE II  <br></br> Condomínio em Pindamonhangaba </strong> </h6>
